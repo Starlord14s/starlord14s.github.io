@@ -1,4 +1,3 @@
-# starlord14s.github.io
 # 👨‍💼 Andy Giler Valverde
 ### Mercaderista
 
