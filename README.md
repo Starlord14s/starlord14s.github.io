@@ -72,23 +72,19 @@
     .referencia {
       margin-top: 10px;
     }
-    
-    .referencia {
-    margin-top: 10px;
-  }
 
-  /* ⛔️ Aquí agregas el bloque para ocultar el texto azul */
-  footer,
-  a[href*="github.io"] {
-    display: none !important;
-  }
+    /* 🔒 Bloque para ocultar texto/enlace azul de GitHub Pages */
+    footer,
+    a[href*="github.io"] {
+      display: none !important;
+    }
   </style>
 </head>
 <body>
   <header>
     <h1>Andy Giler Valverde</h1>
     <h3>Mercaderista</h3>
-    <img src="WhatsApp Image 2025-04-15 at 10.19.48 PM.jpeg" alt="WhatsApp Image 2025-04-15 at 10.19.48 PM.jpeg" />
+    <img src="WhatsApp Image 2025-04-15 at 10.19.48 PM.jpeg" alt="Foto de perfil" />
   </header>
 
   <section class="info">
@@ -144,4 +140,3 @@
   </section>
 </body>
 </html>
-
