@@ -78,7 +78,7 @@
   <header>
     <h1>Andy Giler Valverde</h1>
     <h3>Mercaderista</h3>
-    <img src="47defdae-b01f-45cf-852c-66fbe6d16b9e.png" alt="Foto de Andy Giler Valverde" />
+    <img src="WhatsApp Image 2025-04-15 at 10.19.48 PM.jpeg" alt="Foto de Andy Giler Valverde" />
   </header>
 
   <section class="info">
