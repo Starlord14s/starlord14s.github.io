@@ -72,6 +72,16 @@
     .referencia {
       margin-top: 10px;
     }
+    
+    .referencia {
+    margin-top: 10px;
+  }
+
+  /* ⛔️ Aquí agregas el bloque para ocultar el texto azul */
+  footer,
+  a[href*="github.io"] {
+    display: none !important;
+  }
   </style>
 </head>
 <body>
