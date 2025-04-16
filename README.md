@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
@@ -6,7 +7,7 @@
   <style>
     body {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #f4f6f9;
+      background-color: #fff8e7; /* Fondo color crema */
       color: #333;
       margin: 0;
       padding: 0;
@@ -73,10 +74,34 @@
       margin-top: 10px;
     }
 
-    /* 🔒 Bloque para ocultar texto/enlace azul de GitHub Pages */
+    /* Ocultar texto azul de GitHub Pages */
     footer,
     a[href*="github.io"] {
       display: none !important;
+    }
+
+    /* Estilos para sección final de explicación */
+    .explicacion-estilos {
+      background-color: #fff1cc;
+      border-left: 8px solid #ffbb33;
+      padding: 20px;
+      margin-top: 40px;
+      border-radius: 10px;
+    }
+
+    .explicacion-estilos ul {
+      padding-left: 25px;
+    }
+
+    .explicacion-estilos code {
+      background-color: #eee;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-size: 14px;
+    }
+
+    .explicacion-estilos strong {
+      color: #cc6600;
     }
   </style>
 </head>
@@ -138,5 +163,26 @@
       <p><strong>Ing. Walter Reyes</strong><br>📱 099 780 1926 | 📧 walter.reyes92@hotmail.com</p>
     </div>
   </section>
+
+  <!-- 🎨 Sección final: explicación de estilos -->
+  <section class="explicacion-estilos">
+    <div class="section-title">🎨 Estilos Utilizados</div>
+    <ul>
+      <li><strong>Fuente:</strong> 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif para una apariencia moderna y profesional.</li>
+      <li><strong>Colores:</strong>
+        <ul>
+          <li>Fondo crema: <code>#fff8e7</code></li>
+          <li>Texto general: <code>#333</code></li>
+          <li>Encabezado azul oscuro: <code>#004080</code> y borde azul claro: <code>#0073e6</code></li>
+        </ul>
+      </li>
+      <li><strong>Diseño de encabezado:</strong> con imagen circular flotante y borde blanco para destacar visualmente.</li>
+      <li><strong>Secciones:</strong> centradas con un ancho máximo de <code>900px</code> para mejor lectura.</li>
+      <li><strong>Títulos de sección:</strong> resaltados con fondo azul, texto blanco y borde lateral para jerarquía.</li>
+      <li><strong>Listas y textos:</strong> con márgenes y espaciado uniforme.</li>
+      <li><strong>Estilo extra:</strong> Se ocultó automáticamente el texto azul de GitHub Pages con:<br><code>footer, a[href*="github.io"] { display: none !important; }</code></li>
+    </ul>
+  </section>
+
 </body>
 </html>
